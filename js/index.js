@@ -122,12 +122,12 @@ const users = [
   
 //   console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
 // ===================================================================================
-const getUserWithEmail = (users, email) => {
-    
-  };
+// const getUserWithEmail = (users, email) => {
+//     return users.find(el=>el.email === email);
+//   };
   
-  console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
-  console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
+//   console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {объект пользователя Sheree Anthony}
+//   console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {объект пользователя Elma Head}
 //   ======================================================================
 // const getUsersWithAge = (users, min, max) => {
 //     return users.filter(el => el.age > min && el.age<= max)
@@ -158,3 +158,9 @@ const getUserWithEmail = (users, email) => {
 //   console.log(getNamesSortedByFriendsCount(users));
 //   // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
 // =================================================================================
+const getSortedUniqueSkills = users => {
+  // твой код
+};
+
+console.log(getSortedUniqueSkills(users));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
