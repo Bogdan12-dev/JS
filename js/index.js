@@ -159,8 +159,8 @@ const users = [
 //   // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
 // =================================================================================
 const getSortedUniqueSkills = users => {
-  // твой код
-};
+    let result = [...new Set(users.reduce((acc,el)=>acc.concat(el.skills),[]))]
+    return result
+  };    
 
-console.log(getSortedUniqueSkills(users));
-// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
+  console.log(getSortedUniqueSkills(users));
